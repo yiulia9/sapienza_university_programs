@@ -9,13 +9,14 @@ def op():
         if quit=="N":
             return op()
         elif quit=="Y":
+            return
             
 def menu():
     select= int(input("1. Story\n2. Character\n3. Quit"))
 
     if select == 1:
         return story()
-    elif select == 2
+    elif select == 2:
         return char()
     elif select==3:
         return op()
